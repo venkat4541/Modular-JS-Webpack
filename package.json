@@ -1,0 +1,22 @@
+{
+  "name": "webpack-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venkat4541/Modular-JS-Webpack.git"
+  },
+  "author": "Venkat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venkat4541/Modular-JS-Webpack/issues"
+  },
+  "homepage": "https://github.com/venkat4541/Modular-JS-Webpack#readme",
+  "devDependencies": {
+    "webpack": "^2.2.0-rc.0"
+  }
+}
