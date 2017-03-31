@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/venkat4541/Modular-JS-Webpack#readme",
   "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.3.2",
+    "css-loader": "^0.28.0",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "style-loader": "^0.16.1",
     "webpack": "^2.2.0-rc.0"
   }
 }

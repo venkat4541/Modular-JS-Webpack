@@ -63,24 +63,61 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
-const sum = (a, b) => a + b;
+"use strict";
 
-module.exports = sum;
+
+__webpack_require__(2);
+
+var image = document.createElement('img');
+image.src = 'http://lorempixel.com/400/400';
+
+document.body.appendChild(image);
 
 /***/ },
 /* 1 */
 /***/ function(module, exports, __webpack_require__) {
 
-const sum = __webpack_require__(0);
+"use strict";
 
-const total = sum(10,5);
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var sum = function sum(a, b) {
+  return a + b;
+};
+
+exports.default = sum;
+
+/***/ },
+/* 2 */
+/***/ function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 3 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _sum = __webpack_require__(1);
+
+var _sum2 = _interopRequireDefault(_sum);
+
+__webpack_require__(0);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var total = (0, _sum2.default)(10, 5);
 console.log(total);
 
 /***/ }
